@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Blockchain interaction
+web3
+eth-account
+
+# Gestion des environnements
+python-dotenv
+
+# Outils cryptographiques
+pycryptodome
+
+# Tests unitaires
+pytest
+
+# Audit & sécurité
+mythril       # Analyse de sécurité des smart contracts
+slither-analyzer # Audit statique des contrats Solidity
+manticore    # Symbolic execution pour tester la sécurité
